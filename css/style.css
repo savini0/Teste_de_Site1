@@ -1,0 +1,414 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+    background-image: linear-gradient(to bottom,#1a1010,white,#aa518ece 120%);
+    
+    
+}
+a{
+    text-decoration: none;
+    color: violet;
+}
+a:visited{
+    color: violet;
+
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+}
+.mail{
+    color: rgb(255, 255, 255);
+}
+.mail:hover{
+    background-color:thistle;
+    color: black;
+}
+
+
+/* contato*/
+.contato{
+    color: rgb(255, 255, 255);
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 1px solid rgba(156, 94, 134, 0.301);
+    margin: auto;
+    position: relative;
+}
+
+
+.p1{
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+    left: 1vw;
+    font-size: 2.5vw;
+
+}
+.p2{
+    margin-bottom: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 50vw;
+    font-size: 2.5vw;
+
+}
+/*fim do contato*/
+
+/*CABEÇALHO*/
+header{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+    font-size: 3vw;
+    font-family: 'Dancing Script', cursive;
+    color: violet;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.menu{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+header li{
+    float: left;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    display: inline-block;
+    width: 10px;
+    float: left;
+    position: relative;
+   
+}
+/*FIM DO CABEÇALHO*/
+
+/* INICIO*/
+.inicio{
+    height: 30%;
+    padding: 10%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+
+}
+
+.picture{
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid #AA518E;
+
+    
+}
+
+.apresentação{
+    display: inline-block;
+    max-width: 50%;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+
+}
+.inicial{
+    margin-bottom: 30px;
+}
+
+.encomenda{
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+    cursor: crosshair;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: #000000;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+.encomenda:hover{
+    background-color:rgb(192, 99, 99);
+    color: white;
+}
+.encomenda:active{
+    background-color: rgba(238, 103, 227, 0.836);
+}
+/* IMAGENS DE INTRODUÇÃO*/
+.alinhar{
+    text-align: center;
+
+}
+
+.ia1{
+    display: inline-block;
+    width: 30vw;
+    border:4px solid rgba(8, 8, 8, 0.61);
+    position: relative;
+    bottom: 60px;
+    border-radius: 100px;
+    margin-top: 50px;
+    box-shadow: black;
+
+}
+.ia3{
+    display: inline-block;
+    width: 30vw;
+    border:4px solid rgba(8, 8, 8, 0.61);
+    position: relative;
+    bottom: 60px;
+    border-radius: 100px;
+    box-shadow: black;
+
+}
+.ia2{
+    display: inline-block;
+    width: 30vw;
+    border:4px solid rgba(8, 8, 8, 0.61);
+    position: relative;
+    bottom: 60px;
+    border-radius: 100px;
+    box-shadow: black;
+}
+/*FIM DAS IMAGENS DE INTRODUÇÃO*/
+/*INÍCIO QUEM SOU EU*/
+.soueu{
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    transform: translateY(-15%);
+    
+
+    
+
+}
+
+.fotoeu{
+    width: 30vw;
+    border-radius: 300px;
+    border: 2px solid rgb(255, 255, 255) ;
+}
+.who{
+    display: inline-block;
+    max-width: 50%;
+    font-size: 3.0vw;
+    margin-left: 40px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    top: 90%;
+    color: white;
+}
+.who p, .who h3{
+    margin-bottom: 20px;
+}
+/*FIM QUEM SOU EU*/
+
+/*INCIO DO TERÇOS*/
+
+.terços{
+    position: relative;
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+    margin: auto;
+    width: 60%;
+ 
+}
+#tisgram{
+    line-height: 50px;
+    font-family: "Dancing Script",cursive;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+#tisgram:hover{
+    background-color: #AA518E;
+}
+.f{
+    filter: brightness(60%);
+    position: relative;
+}
+.f:hover{
+    filter: none;
+}
+.terços h1, .terços p{
+    margin-left: auto;
+    padding-left: 5%;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+}
+.terços p{
+    font-size: 30px;
+}
+.terços h1{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.terços img{
+    width: 30%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+/*FIM DDOS TERÇOS*/
+
+/*inicio das naninhas*/
+.naninhas{   
+    text-align: center;
+   
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+.naninhas img{
+    display: inline-block;
+    width: 30%;
+    box-shadow:  black;
+    border-radius: 30px;
+
+}
+.n{
+    filter: brightness(60%);
+    position: relative;
+}
+.n:hover{
+    filter: none;
+}
+.naninhas h1, .naninhas p{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+.naninhas h1{
+    font-size: 50px;
+}
+.naninhas p{
+    font-size: 30px;
+
+}
+
+/*Início dos Chaveiros*/
+.chaveiros{
+    text-align: center;
+
+    padding-bottom: 30px;
+    width: 60%;
+    margin: auto;
+    
+}
+
+.chaveiros h1,.chaveiros p{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+    margin-left: 30px;
+}
+   
+.chaveiros img{
+    width: 40%;
+    padding: 1px;
+    border: 1px solid white;
+    border-radius: 20%;
+}
+.chaveiros h1{
+    font-size: 50px;
+}
+.g{
+    filter: brightness(60%);
+    position: relative;
+}
+.g:hover{
+    filter: none;
+}
+/*FIM dos Chaveiros*/
+
+/*Inicio dos contatos*/
+
+.chandler{
+    text-align: center;
+    overflow: hidden;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 30px;
+    color: black;
+
+}
+.chandler .mail{
+    font-size: 30px;
+    color: black;
+}
+.chandler a:hover{
+    background-color: black;
+    color: white
+}
+
+.chandler img{
+    width: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+.chandler ul{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    
+}
+.chandler li{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+#telefone{
+    width: 20px;
+    transform: translateY(25%);
+
+}
+#parágrafo{
+
+    font-size: 30px;
+}
+/*ÍNCIO FOOTER*/
+footer{
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+footer img{
+    width: 250px;
+    border-radius: 250px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    left: 3%;
+}
+footer p{
+    font-size: 30px;
+    transform: translateY(center);
+    font-family: "Dancing Script",cursive;
+
+}
