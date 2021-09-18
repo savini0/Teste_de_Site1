@@ -87,7 +87,6 @@ header li{
 .logo{
     display: inline-block;
     width: 10px;
-    float: left;
     position: relative;
    
 }
@@ -401,7 +400,7 @@ footer{
 footer img{
     width: 250px;
     border-radius: 250px;
-    float: left;
+    
     display: inline-block;
     position: relative;
     left: 3%;
